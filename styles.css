@@ -1,0 +1,140 @@
+ header{
+  position:unset;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 5px solid ;
+    background-color: rgb(74, 172, 61);
+    border: 4px solid;
+padding: 50px;
+justify-content: space-between;
+display: flex;
+ }
+ h1 {
+    color:rgba(0, 0, 0, 0.774) ;
+    text-decoration: none;
+    background-color: #60ac22;
+ }
+ li{font-family: verdana ;}
+ ol{
+   color:rgb(0, 0, 0)  ;
+   background-color: rgb(136, 67, 27);
+   text-align:left;
+   border: 2px solid;
+   border-radius: 10px;
+   
+ }
+ h2{text-decoration: none;
+color: rgb(84, 233, 64);
+text-align: center;}
+ nav ul{
+  text-decoration: none;
+  list-style: none;
+ }
+ .pages{
+   color: rgb(0, 0, 0);
+   background-color: #b4a200;
+   border: 2px solid;
+  }
+ .card{ 
+  background-color:  rgb(141, 141, 130);
+    max-width:500px;
+    height: 500px;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+   text-align: center;
+   margin-top: 40px;
+   
+}
+ .card img{ width: 101% ;
+margin: auto;
+
+}
+nav li{
+  text-decoration:none;
+}
+ p{text-wrap:balance ;
+font-family: verdana black;
+background-color: #ecdf68;
+color: #000;
+}
+h5{color: #000;
+background-color: aliceblue;}
+body{background-color: rgb(92, 69, 69);
+ 
+  }
+.li1{text-decoration: #126e48;}
+.padre{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  border: 35px solid;
+  background-color: rgb(48, 92, 38);
+  width: 100%; 
+  height: auto;
+  padding: 5px;
+  margin: auto;
+  max-width: 1100px;
+ 
+}
+nav{text-decoration: none;}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  max-width: 1500px;;
+  margin: 1px;
+ padding: auto;
+
+}
+.card2{max-width: 500px;
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  text-align:justify;
+  border: 5px solid;
+  background-color: #546301;
+  margin: auto;
+ }
+.card2 h2{text-align:right;
+  margin-top: 0px;
+ position: relative;
+} 
+.card2 p{background-color: #999999;}
+.card2 img{
+  max-width:360px;
+  height: 250px;
+  max-height: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+ text-align: center;
+ flex-wrap: nowrap;
+ position: center;
+ display: flex;
+}
+h3{text-align: center;
+color: #15dd1f;}
+
+footer{background-color: #e7d957;
+text-decoration: #e7d957;
+}
+@media screen and (max-width:700px) {
+  header{
+      flex-direction: column;
+      align-items: start;
+      display: flex;
+  }
+
+
+}
+nav li :hover{
+  background-color: #e7d957;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+}
